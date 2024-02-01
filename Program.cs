@@ -12,12 +12,12 @@
 
         public static class Utente
         {
-            public static string Username = "myUsername";
-            public static string Password = "myPassword";
+            private static string Username = "myUsername";
+            private static string Password = "myPassword";
 
-            public static bool Verify = false;
-            public static DateTime DataOra;
-            public static List<DateTime> Accessi = new List<DateTime>();
+            private static bool Verify = false;
+            private static DateTime DataOra;
+            private static List<DateTime> Accessi = new List<DateTime>();
 
 
             public static void Menu()
